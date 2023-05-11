@@ -1,0 +1,2070 @@
+{
+    "entry": [
+        {
+            "resource": {
+                "active": true,
+                "birthDate": "1964-01-01",
+                "gender": "male",
+                "id": "041520-39",
+                "meta": {
+                    "lastUpdated": "2021-10-18T15:51:33+00:00",
+                    "versionId": "1"
+                },
+                "name": [
+                    {
+                        "family": "myProstate.eu"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "resource": {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "277132007",
+                            "display": "Therapeutic procedure (procedure)",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Therapeutic procedure (procedure)"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "code": "152198000",
+                            "display": "Brachytherapy (procedure)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "152198000",
+                            "display": "Brachytherapy (procedure)",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Brachytherapy (procedure)"
+                },
+                "id": "041520-228",
+                "meta": {
+                    "lastUpdated": "2021-10-18T15:51:36+00:00",
+                    "versionId": "1"
+                },
+                "performedPeriod": {
+                    "end": "2009-11-05T02:30:00Z",
+                    "start": "2009-11-05T02:30:00Z"
+                },
+                "resourceType": "Procedure",
+                "status": "completed",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "277132007",
+                            "display": "Therapeutic procedure (procedure)",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Therapeutic procedure (procedure)"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "code": "387713003",
+                            "display": "Surgical procedure (procedure)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "387713003",
+                            "display": "Surgical procedure (procedure)",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Surgical procedure (procedure)"
+                },
+                "id": "041520-897",
+                "meta": {
+                    "lastUpdated": "2021-10-18T15:51:36+00:00",
+                    "versionId": "1"
+                },
+                "performedPeriod": {
+                    "end": "2013-06-19T02:30:00Z",
+                    "start": "2013-06-19T02:30:00Z"
+                },
+                "resourceType": "Procedure",
+                "status": "completed",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "277132007",
+                            "display": "Therapeutic procedure (procedure)",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Therapeutic procedure (procedure)"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "code": "90470006",
+                            "display": "Prostatectomy",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "90470006",
+                            "display": "Prostatectomy",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Prostatectomy"
+                },
+                "id": "041520-881",
+                "meta": {
+                    "lastUpdated": "2021-10-18T15:51:36+00:00",
+                    "versionId": "1"
+                },
+                "performedPeriod": {
+                    "end": "2013-06-19T02:30:00Z",
+                    "start": "2013-06-19T02:30:00Z"
+                },
+                "resourceType": "Procedure",
+                "status": "completed",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "277132007",
+                            "display": "Therapeutic procedure (procedure)",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Therapeutic procedure (procedure)"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "code": "108290001",
+                            "display": "Radiation oncology AND/OR radiotherapy (procedure)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "108290001",
+                            "display": "Radiation oncology AND/OR radiotherapy (procedure)",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Radiation oncology AND/OR radiotherapy (procedure)"
+                },
+                "id": "041520-232",
+                "meta": {
+                    "lastUpdated": "2021-10-18T15:51:36+00:00",
+                    "versionId": "1"
+                },
+                "performedPeriod": {
+                    "end": "2009-11-05T02:30:00Z",
+                    "start": "2009-11-05T02:30:00Z"
+                },
+                "resourceType": "Procedure",
+                "status": "completed",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "277132007",
+                            "display": "Therapeutic procedure (procedure)",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Therapeutic procedure (procedure)"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "code": "26294005",
+                            "display": "Radical prostatectomy (procedure)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "26294005",
+                            "display": "Radical prostatectomy (procedure)",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Radical prostatectomy (procedure)"
+                },
+                "id": "041520-865",
+                "meta": {
+                    "lastUpdated": "2021-10-18T15:51:36+00:00",
+                    "versionId": "1"
+                },
+                "performedPeriod": {
+                    "end": "2013-06-19T02:30:00Z",
+                    "start": "2013-06-19T02:30:00Z"
+                },
+                "resourceType": "Procedure",
+                "status": "completed",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "277132007",
+                            "display": "Therapeutic procedure (procedure)",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Therapeutic procedure (procedure)"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "code": "228868000",
+                            "display": "Low dose rate brachytherapy (observable entity)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "228868000",
+                            "display": "Low dose rate brachytherapy (observable entity)",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Low dose rate brachytherapy (observable entity)"
+                },
+                "id": "041520-224",
+                "meta": {
+                    "lastUpdated": "2021-10-18T15:51:36+00:00",
+                    "versionId": "1"
+                },
+                "performedPeriod": {
+                    "end": "2009-11-05T02:30:00Z",
+                    "start": "2009-11-05T02:30:00Z"
+                },
+                "resourceType": "Procedure",
+                "status": "completed",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2018-06-06T02:30:00Z",
+                "id": "041520-2957",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 72.9
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2017-10-26T02:30:00Z",
+                "id": "041520-2738",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 15.2
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2016-02-14T02:30:00Z",
+                "id": "041520-2072",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 16.84
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2013-06-19T02:30:00Z",
+                "id": "041520-724",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 14.0
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "procedure",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "procedure",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "249610002",
+                            "display": "Prostate finding",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "249610002",
+                            "display": "Prostate finding",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Prostate finding"
+                },
+                "component": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "372278000",
+                                    "display": "Gleason score (observable entity)",
+                                    "system": "http://snomed.info/sct"
+                                },
+                                {
+                                    "code": "372278000",
+                                    "display": "Gleason score",
+                                    "system": "http://snomed.info/sct"
+                                }
+                            ],
+                            "text": "Gleason score"
+                        },
+                        "valueString": "3+4"
+                    }
+                ],
+                "id": "041520-29",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "value": 0.0
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2014-10-23T02:30:00Z",
+                "id": "041520-1456",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 1.39
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2018-05-08T02:30:00Z",
+                "id": "041520-2930",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 52.0
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2015-11-22T02:30:00Z",
+                "id": "041520-1976",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 5.44
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2016-01-11T02:30:00Z",
+                "id": "041520-2028",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 8.31
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2017-12-28T02:30:00Z",
+                "id": "041520-2806",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 21.5
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2017-04-12T02:30:00Z",
+                "id": "041520-2572",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 13.4
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2018-02-27T02:30:00Z",
+                "id": "041520-2861",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 35.7
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2018-02-08T02:30:00Z",
+                "id": "041520-2838",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 24.1
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "procedure",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "procedure",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "385416006",
+                            "display": "Prostate TNM finding (finding)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "385416006",
+                            "display": "Prostate TNM finding (finding)",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Prostate TNM finding (finding)"
+                },
+                "component": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "23351008",
+                                    "display": "T1 category (finding)",
+                                    "system": "http://snomed.info/sct"
+                                },
+                                {
+                                    "code": "23351008",
+                                    "display": "T1, T1 category (finding)",
+                                    "system": "http://snomed.info/sct"
+                                }
+                            ],
+                            "text": "T1, T1 category (finding)"
+                        },
+                        "valueString": "T1"
+                    }
+                ],
+                "id": "041520-260",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "value": 0.0
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2013-08-27T02:30:00Z",
+                "id": "041520-964",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 24.0
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2016-12-02T02:30:00Z",
+                "id": "041520-2430",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 12.7
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2014-11-17T02:30:00Z",
+                "id": "041520-1492",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 2.76
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2018-03-29T02:30:00Z",
+                "id": "041520-2897",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 55.2
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2017-09-21T02:30:00Z",
+                "id": "041520-2709",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 20.0
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2018-01-25T02:30:00Z",
+                "id": "041520-2830",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 21.3
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2017-09-12T02:30:00Z",
+                "id": "041520-2702",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 18.0
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2017-05-30T02:30:00Z",
+                "id": "041520-2614",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 14.5
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2015-04-16T02:30:00Z",
+                "id": "041520-1687",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 6.1
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2009-11-05T02:30:00Z",
+                "id": "041520-491",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 8.1
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2017-01-24T02:30:00Z",
+                "id": "041520-2495",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 16.2
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2017-11-23T02:30:00Z",
+                "id": "041520-2763",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 16.9
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2016-04-07T02:30:00Z",
+                "id": "041520-2147",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 18.28
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2016-07-20T02:30:00Z",
+                "id": "041520-2275",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 35.5
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2017-11-16T02:30:00Z",
+                "id": "041520-2753",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 16.2
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2015-05-07T02:30:00Z",
+                "id": "041520-1724",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 13.8
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2016-12-21T02:30:00Z",
+                "id": "041520-2458",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 13.6
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2018-02-16T02:30:00Z",
+                "id": "041520-2845",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 26.0
+                }
+            }
+        },
+        {
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            },
+                            {
+                                "code": "laboratory",
+                                "display": "http://hl7.org/fhir/observation-category",
+                                "system": "http://hl7.org/fhir/observation-category"
+                            }
+                        ],
+                        "text": "http://hl7.org/fhir/observation-category"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "102687007",
+                            "display": "Prostate specific antigen (substance)",
+                            "system": "http://snomed.info/sct"
+                        },
+                        {
+                            "code": "102687007",
+                            "display": "Total PSA",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Total PSA"
+                },
+                "effectiveDateTime": "2017-08-09T02:30:00Z",
+                "id": "041520-2670",
+                "meta": {
+                    "lastUpdated": "2021-10-18T13:51:39.7643405+00:00",
+                    "versionId": "1"
+                },
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/041520-39"
+                },
+                "valueQuantity": {
+                    "code": "ng/mL",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "ng/mL",
+                    "value": 12.0
+                }
+            }
+        }
+    ],
+    "link": [
+        {
+            "relation": "self",
+            "url": "ToBeUpdated"
+        }
+    ],
+    "resourceType": "Bundle",
+    "total": 40.0,
+    "type": "searchset"
+}

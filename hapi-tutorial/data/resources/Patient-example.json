@@ -1,0 +1,13 @@
+{
+    "active": true,
+    "birthDate": "1955-01-01",
+    "deceasedDateTime": "2019-12-11",
+    "id": "041520-1",
+    "name": [
+        {
+            "family": "myProstate.eu"
+        }
+    ],
+    "resourceType": "Patient",
+    "gender": "male"
+}

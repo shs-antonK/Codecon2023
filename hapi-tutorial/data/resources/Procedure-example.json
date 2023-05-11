@@ -1,0 +1,24 @@
+{
+    "status": "completed",
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/cst",
+                "code": "26294005",
+                "display": "Radical prostatectomy (procedure)"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/041520-1"
+    },
+    "encounter": {
+        "reference": "Encounter/A75E8847215B9A7525F586887806BA6B"
+    },
+    "performedPeriod": {
+        "start": "2015-01-15",
+        "end": "2015-01-15"
+    },
+    "resourceType": "Procedure",
+    "id": "Procedure000000000000000000027"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "A75E8847215B9A7525F586887806BA6B",
+    "status": "finished",
+    "class": "AMB",
+    "subject": {
+        "reference": "Patient/041520-1"
+    },
+    "period": {
+        "start": "2015-01-15",
+        "end": "2015-01-15"
+    },
+    "resourceType": "Encounter"
+}

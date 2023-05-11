@@ -1,0 +1,41 @@
+# ╭─────────────────────────────────ImplementationGuide-fish.json──────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see:                                                                    │
+# │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: fish
+canonical: http://example.org/fhir/fish
+version: 0.1.0
+name: CodeconeImplementationGuide
+title: Codecone Implementation Guide
+status: draft
+publisher: Anton Kovac
+contact:
+  - name: Anton Kovac
+    telecom:
+      - system: email
+        value: anton.kovac@siemens-healthineers.com
+description: An example of how FSH can be used to create an IG
+license: CC0-1.0
+fhirVersion: 4.0.1
+parameters:
+  apply-publisher: true
+  apply-contact: true
+  show-inherited-invariants: false
+copyrightYear: 2020+
+releaseLabel: ci-build
+
+dependencies: 
+  fhir.dicom: 
+    url: http://fhir.org/packages/fhir.dicom/ImplementationGuide/fhir.dicom
+    version: 2022.4.20221006
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  IG Home: index.html
+  Table of Contents: toc.html
+  Artifacts Summary: artifacts.html
+  Other Resources:
+    "FHIR Spec ": new-tab {{site.data.fhir.path}}index.html

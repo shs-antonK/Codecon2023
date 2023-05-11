@@ -1,0 +1,20 @@
+{
+  "resourceType": "Patient",
+  "id": "Patient-1234-2",
+  "meta": {
+    "profile": [
+      "http://example.org/fhir/fish/StructureDefinition/shs-codecon-patient"
+    ]
+  },
+  "name": [
+    {
+      "family": "Veronika",
+      "given": [
+        "Nemocna"
+      ]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1960-12-21",
+  "deceasedDateTime": "2016-01-01"
+}

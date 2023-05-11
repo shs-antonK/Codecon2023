@@ -1,0 +1,28 @@
+{
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/cst",
+                "code": "102687007",
+                "display": "Prostate specific antigen"
+            },
+            {
+                "system": "http://loinc.org",
+                "code": "2857-1",
+                "display": "Prostate specific Ag [Mass/volume] in Serum or Plasma"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/041520-1"
+    },
+    "effectiveDateTime": "2014-11-11",
+    "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "value": 5.77,
+        "code": "ng/mL"
+    },
+    "resourceType": "Observation",
+    "id": "Observation00000000000000000006"
+}

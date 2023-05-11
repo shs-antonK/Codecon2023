@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsProstatespecificantigenPSA",
+  "id": "VsProstatespecificantigenPSA",
+  "title": "ValueSet for: Prostate specific antigen (PSA)(Observation.code)",
+  "description": "Codes associated with domain information element Prostate specific antigen (PSA)(Observation.code).",
+  "version": "1.0.0",
+  "url": "http://example.org/fhir/fish/ValueSet/VsProstatespecificantigenPSA",
+  "date": "2018-04-07T06:53:01+10:00",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "2857-1",
+            "display": "Prostate specific Ag [Mass/volume] in Serum or Plasma"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "102687007",
+            "display": "Prostate specific antigen (substance)"
+          }
+        ]
+      }
+    ]
+  }
+}

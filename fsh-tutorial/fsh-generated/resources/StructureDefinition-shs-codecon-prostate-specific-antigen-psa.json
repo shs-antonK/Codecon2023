@@ -1,0 +1,113 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shs-codecon-prostate-specific-antigen-psa",
+  "url": "http://example.org/fhir/fish/StructureDefinition/shs-codecon-prostate-specific-antigen-psa",
+  "version": "0.1.0",
+  "name": "SHS_Codecon_ProstateSspecificAntigen_PSA",
+  "title": "SHS - Codecon - Prostate specific antigen (PSA)",
+  "status": "draft",
+  "description": "A protein made by the prostate gland and found in the blood. Prostate-specific antigen blood levels may be higher than normal in men who have prostate cancer, benign prostatic hyperplasia (BPH), or infection or inflammation of the prostate gland. ",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "sct-concept",
+      "uri": "http://snomed.info/conceptdomain",
+      "name": "SNOMED CT Concept Domain Binding"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "sct-attr",
+      "uri": "http://snomed.org/attributebinding",
+      "name": "SNOMED CT Attribute Binding"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://example.org/fhir/fish/StructureDefinition/shs-codecon-lab-values-general",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "commonCode"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Observation.code.coding.version",
+        "path": "Observation.code.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Observation.code.coding.userSelected",
+        "path": "Observation.code.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Observation.code.coding:commonCode",
+        "path": "Observation.code.coding",
+        "sliceName": "commonCode",
+        "min": 1,
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://example.org/fhir/fish/ValueSet/VsProstatespecificantigenPSA"
+        }
+      },
+      {
+        "id": "Observation.valueQuantity",
+        "path": "Observation.valueQuantity",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Observation.valueQuantity.unit",
+        "path": "Observation.valueQuantity.unit",
+        "fixedString": "ng/mL"
+      },
+      {
+        "id": "Observation.valueQuantity.system",
+        "path": "Observation.valueQuantity.system",
+        "fixedUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.valueQuantity.code",
+        "path": "Observation.valueQuantity.code",
+        "fixedCode": "ng/mL"
+      }
+    ]
+  }
+}
